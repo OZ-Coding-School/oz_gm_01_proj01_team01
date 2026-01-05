@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826c5815d943b224589b6de3196d0d27, type: 3}
+  m_Name: 1014-LandMine-ProjectileLogic
+  m_EditorClassIdentifier: 
+  <AnimationController>k__BackingField: {fileID: 9100000, guid: b7103301264006b41b786ef756944932, type: 2}
+  <DefaultSpeed>k__BackingField: 0
+  <DefaultSearchDistance>k__BackingField: 3
+  <DefaultColliderRadius>k__BackingField: 3
+  <LifeTime>k__BackingField: 5
+  <KnockBackForce>k__BackingField: 0
+  <IsInflictingDamageOnTriggerEnter>k__BackingField: 0
+  <IsInflictingDamageOnTriggerStay>k__BackingField: 0
+  <CriticalRate>k__BackingField: 0.6
+  damageVariationRatio: 0.3
+  <OrdinaryDamageCoefficientTable>k__BackingField:
+  - 10
+  - 10
+  - 20
+  - 20
+  - 20
+  <CriticalDamageMultiplier>k__BackingField: 1.2
+  <RadialDistanceUIPrefab>k__BackingField: {fileID: 3334767572514772906, guid: 25919531bc68aec46866ed850e8d7f61, type: 3}
+  <ExplosionFXPrefab>k__BackingField: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5, type: 3}
+  <DefaultSummonDistance>k__BackingField: 3.5
+  <DefaultFuseDelayFrame>k__BackingField: 60

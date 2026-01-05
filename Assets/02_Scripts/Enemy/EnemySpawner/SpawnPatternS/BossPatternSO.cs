@@ -1,0 +1,13 @@
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "BossPatternSO", menuName = "Game/Stage/SpawnPattern/BossSpawnPattern")]
+public class BossPatternSO : SpawnPatternSO
+{
+    [Header("Boss Options")]
+    public bool clearOtherEnemies = true;
+    public bool isLockedArena = true;
+    public bool isShowWaring = true;
+    public bool isLastBoss = false;
+
+    public Vector3 spawnPoint;
+}
